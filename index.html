@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grading System</title>
+   <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+ 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:red;">
+  <div class="box-center">
+      <h1>Marksheet</h1>
+    <label id="lblMsg"></label>
+
+    <div class="box">
+      <label for="">Data Communication</label>
+      <input class="kanij" type="text" name="txt1" id="txt1" autocomplete="off">
+    </div>
+    <div class="box">
+      <label for="">Computer Networks</label>
+      <input class="kanij" type="text" name="txt2" id="txt2" autocomplete="off">
+    </div>
+    <div class="box">
+      <label for="">Theory of Computing</label>
+      <input class="kanij" type="text" name="txt3" id="txt3" autocomplete="off">
+    </div>
+    <div class="box">
+      <label for="">Data Structures</label>
+      <input class="kanij" type="text" name="txt4" id="txt4" autocomplete="off">
+    </div>
+    <div class="box">
+      <label for="">Database Management System</label>
+      <input class="kanij" type="text" name="txt5" id="txt5" autocomplete="off">
+    </div>
+    <div class="box">
+      <button onclick="btn1Click()" class="btn" id="btn1" name="btn1" type="button">Click Here</button>
+    </div>
+    <div class="box">
+      Total : <label id="lblTotal"></label>
+      <br>
+      <br>
+      Percentage / Average : <label id="lblPer"></label>
+      <br>
+      <br>
+      Grade : <label id="lblGrade"></label>
+    </div>
+  </div>
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
